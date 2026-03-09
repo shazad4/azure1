@@ -1,4 +1,0 @@
-Flask
-pyodbc
-azure-storage-blob
-gunicorn
