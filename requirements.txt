@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 Flask
 pyodbc
 azure-storage-blob
+=======
+Flask
+pyodbc
+azure-storage-blob
+>>>>>>> c875f0fdf24624d910e9455b1075e84ae4e3e946
 gunicorn
