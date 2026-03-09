@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Articles</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Articles</h1>
+
+<a href="/create">
+<button>Create Article</button>
+</a>
+
+<br><br>
+
+{% for article in articles %}
+
+<div class="article">
+
+<h2>{{ article[0] }}</h2>
+
+<p><b>Author:</b> {{ article[1] }}</p>
+
+<p>{{ article[2] }}</p>
+
+<img src="{{ article[3] }}" width="300">
+
+</div>
+
+{% endfor %}
+
+</div>
+
+</body>
+</html>
